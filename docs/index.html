@@ -11,7 +11,9 @@
 	<link rel="stylesheet" href="dist/reveal.css">
 	<link rel="stylesheet" href="dist/theme/blood.css">
 	<link rel="stylesheet" href="css/grid.css">
-
+	<link rel="stylesheet" href="plugin/chalkboard/style.css">
+	<!-- <link rel="stylesheet" href="plugin/customcontrols/style.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<!-- Theme used for syntax highlighted code -->
 	<link rel="stylesheet" href="plugin/highlight/monokai.css">
 </head>
@@ -157,10 +159,6 @@
 					<p class="fragment fade-out" id="hlt">
 						What does Augmented Reality mean?</p>
 				</section>
-				<section data-background-image="assets/what-mr.png" data-background-size="1900px"
-					data-background-opacity="1">
-				</section>
-
 				<section data-background-image="assets/what-mr.png" data-background-size="1900"
 					data-background-opacity="0.5">
 					<div id="tbox" class="img-text">
@@ -170,13 +168,13 @@
 									the Reality-Virtuality continuum (Milgram & Kishino '94)
 								</li>
 								<li class="fragment">
-									A taxonomy of MR *Displays*: EWK, RF, EPM
+									A taxonomy of MR *Displays*: EWK, RF, EPM (Milgram et al. '95)
 								</li>
-								<li class="fragment"> What is Mixed Reality ? (Speicher et al CHI'19)
+								<li class="fragment"> What is Mixed Reality ? (Speicher et al. CHI'19)
 									<ul>
 										<li class="fragment"> Strong AR - Mixed Reality - HoloLens</li>
 										<li class="fragment"> Different applications: MR collaboration (Muller et al.
-											CHI'17) & Target selection accuracy (Kyto el al. CHI '18)
+											CHI'17) & Target selection accuracy in AR headset (Kyto el al. CHI '18)
 										</li>
 										<li class="fragment"> Dimensions: degree of interaction, level of virtuality,
 											level of immersion, number of users and number of environments
@@ -200,6 +198,9 @@
 					</div>
 
 				</section>
+				<section data-background-image="assets/what-mr.png" data-background-size="1900px"
+				data-background-opacity="1">
+			</section>
 				<section data-background-image="assets/what-mr.png" data-background-size="1900"
 					data-background-opacity="0.5">
 					<p id="hlt"> It depends! </p>
@@ -250,22 +251,22 @@
 							<ul class="fragment">
 								<li class="fragment">
 									New musical interface:
-									ultimately a augmented/mixed reality music making experience
+									ultimately a mixed reality instrument playing experience 
 									<ul>
 										<li class="fragment">
-											easy to play
+											easy to play ?
 										</li>
-										<li class="fragment"> accessible
+										<li class="fragment"> 
+											accessible ?
 										</li>
 										<li class="fragment">
-											facilitate new music
+											facilitate new music creation ?
 										</li>
 									</ul>
 								</li>
-								<li class="fragment">3D user interface: free hand interaction</li>
-								<li class="fragment">Collaboration: access to the reality </li>
-								<li class="fragment">Mixed Reality headsets </li>
-								<li class="fragment">Performer/Developer/Audience</li>
+								<li class="fragment">3D user interface: free hand interaction (6 degree of freedom, fully articulated model and direction manipulation) </li>
+								<li class="fragment">Collaboration: access to the reality  </li>
+								<li class="fragment">Performer/Researcher/Audience</li>
 							</ul>
 						</div>
 
@@ -331,17 +332,19 @@
 									<li class="fragment">
 										Sound control &#8800 Sound Expression (Dobrian & Koppelman NIME '06)
 									</li>
+									<li class="fragment">An interface that supports "play"</li>
 									<li class="fragment">
-										Various data acquisition from input devices (Wanderley & Depalle Proc IEEE '04)
+										Gestural control of sound synthesis: various data acquisition from input devices including hand, mediated devices, physiological signals, etc (Wanderley & Depalle Proc IEEE '04)
 									</li>
+									<img src="https://www.researchgate.net/publication/2986282/figure/fig5/AS:668711174303754@1536444576229/A-symbolic-representation-of-a-DMI.pbm" alt="">
+
 								</ul>
 
 
 							
 						</div>
 						<div class="item6">
-							<img src="https://i.imgflip.com/6zlfx7.jpg" alt="" width="300">
-						</div>
+							<img src="https://i.imgflip.com/6zlfx7.jpg" alt="" width="250">						</div>
 
 					</div>
 				</section>
@@ -351,7 +354,7 @@
 						<div class="fragment item7">
 							<ul>
 								<li class="fragment">
-									A study of interaction modality: plucked strings vs touch sensor (Harrison et a.
+									When is a Guitar not a Guitar?: a study of interaction modality: plucked strings vs touch sensor (Harrison et a.
 									NIME '18)
 									<ul>
 										<li class="fragment"> Guitarists: "the strings feeling more *natural* to play
@@ -360,14 +363,14 @@
 										<li class="fragment">
 											Non-musicians:
 											<ul>
-												<li class="fragment">knows what to do when see the strings</li>
-												<li class="fragment">the sensor: feel confused - what gestures? </li>
+												<li class="fragment"> knows what to do when see the strings</li>
+												<li class="fragment"> the sensor: feel confused - what gestures? </li>
+												<li class="fragment"> touch screen was more fun </li>
+												<li class="fragment"> the strings provided new creativity</li>
 											</ul>
 										</li>
 									</ul>
 								</li>
-								<li class="fragment"> touch screen was more fun </li>
-								<li class="fragment"> the strings provided new creativity</li>
 							</ul>
 						</div>
 						<div class="item8">
@@ -377,9 +380,10 @@
 				</section>
 				<section data-background-image="assets/3d-interaction.png" data-background-size="100%" data-background-opacity="0.5">
 					<ul>
-						<li class="fragment"> In 3D, musical interaction can be navigation, selection & manipulation
+						<li class="fragment"> In 3D, exiting musical interactions are mainly navigation, selection & manipulation (Berthaut J. New
+							Music Res. '21)
 						</li>
-						<li class="fragment"> gestural interaction MR </li>
+						<li class="fragment"> Gestural interaction in MR (Grubert '21) </li>
 						<li class="fragment"> But - abrupt design of sound?</li>
 					</ul>
 				</section>
@@ -460,11 +464,11 @@
 								<li class="fragment">etc. </li>
 							</ul>
 						</li>
-						<li class="fragment"> first-person approach in HCI: commonly used in initial design (REF)
+						<li class="fragment"> First-person approach in HCI (Desjardins et al. TOCHI '21)
 						</li>
-						<li class="fragment"> practice-lead: reflections
-							rehearsal as research: development-refinement</li>
-						<li class="fragment"> participatory design: what do my users want? </li>
+						<li class="fragment"> Practice-lead: reflections
+							Rehearsal as research: development-refinement (Martin and Gardner '16) </li>
+						<li class="fragment"> Participatory design: what do my users want? </li>
 					</ul>
 				</section>
 			</section>
@@ -479,8 +483,6 @@
 				<section>
 					<img src="assets/tpr.jpg" class="fragment fade-in" alt="">
 				</section>
-
-
 			</section>
 			<section>
 				<section data-background-image="assets/cubingsound.jpeg" data-background-size="1000px"
@@ -578,6 +580,9 @@
 					data-background-opacity="0.3">
 					<div>
 						<ul>
+							<li class="fragment"> Reflexive thematic analysis:
+								collating important codes and themes 
+							</li>
 							<li class="fragment">
 								Gestures in space and usability
 								<ul>
@@ -628,6 +633,8 @@
 	<script src="plugin/markdown/markdown.js"></script>
 	<script src="plugin/highlight/highlight.js"></script>
 	<!-- <script src="plugin/embed-tweet/plugin.js"></script> -->
+	<script src="plugin/chalkboard/plugin.js"></script>
+	<!-- <script src="plugin/customcontrols/plugin.js"></script> -->
 	<script>
 		// More info about initialization & config:
 		// - https://revealjs.com/initialization/
@@ -636,9 +643,24 @@
 			hash: true,
 			// disableLayout: false,
 			//autoPlayMedia: true,
-
+			chalkboard: { 
+				// optionally load pre-recorded chalkboard drawing from file
+				src: "chalkboard.json",
+			},
+			dependencies: [
+				// ... 
+				{ src: 'plugin/chalkboard/chalkboard.js' },
+				// ... 
+			],
+			keyboard: {
+				67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
+				66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+				46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+				8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
+				68: function() { RevealChalkboard.download() },	// downloccccad recorded chalkboard drawing when 'd' is pressed
+			},
 			// Learn about plugins: https://revealjs.com/plugins/
-			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealChalkboard ]
 		});
 	</script>
 </body>
